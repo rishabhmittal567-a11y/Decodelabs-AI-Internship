@@ -5,8 +5,8 @@ import os
 # 1. Path Management: Add 'week3' to the system path to ensure modules are found
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-# 2. Import your engine from the src folder
-from src.engine import RecommenderEngine
+# 2. Import your engine from the src following
+from engine import RecommenderEngine
 
 # 3. Cache the engine and load data using absolute paths
 @st.cache_resource
